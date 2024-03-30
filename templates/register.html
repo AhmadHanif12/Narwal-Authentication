@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//leemon.com/crypto/BigInt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/register.js') }}"></script>
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+       .container{
+        max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Register</h1>
+
+        <form onsubmit="register(event)" method='POST'>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required oninput = "checkUsername()"><br><br>
+            <p id="username_error"></p>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required oninput="checkPassword()"><br><br>
+            <p id="password_error"></p>
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required oninput="checkConfirmPassword()"><br><br>
+            <p id="confirm_password_error"></p>
+            <input type="submit" value="Register">
+        </form>
+        <p>Don't have an account? <a href="/login">Login</a></p>
+        <p>Group: {{ group['g'] }}</p>
+    </div>
+
+
+</body>
+</html>
