@@ -58,6 +58,7 @@ flask db upgrade
      For Windows, use `set` instead of `export`.
 
 2. **Start the Flask Server**
+
 flask run
 
 Visit `http://127.0.0.1:5000/` in your browser.
