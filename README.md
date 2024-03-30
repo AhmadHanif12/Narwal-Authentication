@@ -25,7 +25,7 @@ git clone https://github.com/AhmadHanif12/Narwal-Authentication
 cd Narwal-Authentication
   ```
 
-3. **Setup Virtual Environment (Optional)**
+2. **Setup Virtual Environment (Optional)**
 - Windows:
   ```
   python -m venv venv
