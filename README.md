@@ -68,7 +68,7 @@ Visit `http://127.0.0.1:5000/` in your browser.
 ## Usage
 
 - **Registration**: Users can register through the web interface.
-- **Login/Logout**: Secure login and logout functionality.
+- **Login**: Secure login functionality which shows displays the response regarding the authenticity of a user.
 
 ## Contributing
 
