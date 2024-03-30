@@ -21,7 +21,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the Repository**
   ```
-git clone https://yourrepositorylink.com/narwhal-authentication-app.git
+git clone [https://yourrepositorylink.com/narwhal-authentication-app.git](https://github.com/AhmadHanif12/Narwal-Authentication)
 cd narwhal-authentication-app
   ```
 
