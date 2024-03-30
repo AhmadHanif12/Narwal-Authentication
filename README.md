@@ -20,11 +20,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installation
 
 1. **Clone the Repository**
+  ```
 git clone https://yourrepositorylink.com/narwhal-authentication-app.git
 cd narwhal-authentication-app
+  ```
 
-
-2. **Setup Virtual Environment (Optional)**
+3. **Setup Virtual Environment (Optional)**
 - Windows:
   ```
   python -m venv venv
@@ -37,15 +38,16 @@ cd narwhal-authentication-app
   ```
 
 3. **Install Requirements**
+  ```
 pip install -r requirements.txt
-
+  ```
 ### Database Setup
 
 Initialize the SQLite3 database:
-
+  ```
 flask db upgrade
 
-
+  ```
 
 ### Running the Application
 
@@ -58,9 +60,9 @@ flask db upgrade
      For Windows, use `set` instead of `export`.
 
 2. **Start the Flask Server**
-
+  ```
 flask run
-
+  ```
 Visit `http://127.0.0.1:5000/` in your browser.
 
 ## Usage
