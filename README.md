@@ -89,5 +89,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ![login page](references/screenshotsForMD/Screenshot%202024-03-31%20125951.png)
 
-![registration page](references/screenshotsForMD/Screenshot%2024-03-31%130316.png)
+![registration page](references/screenshotsForMD/Screenshot_2024-03-31_130316.png)
 
