@@ -1,7 +1,5 @@
-flask
-random
-flask_sqlalchemy
-crypto
-flask_login
-hashlib
-cryptography
+Flask==3.0.0
+random2==1.0.2
+Flask-SQLAlchemy==3.1.0
+cryptography==42.0.5
+Flask-Login==0.6.3

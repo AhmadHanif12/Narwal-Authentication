@@ -28,7 +28,7 @@ cd Narwal-Authentication
 2. **Setup Virtual Environment (Optional)**
 - Windows:
   ```
-  python -m venv venv
+  python -m venv venv   # For windows a virtual envoirnment is already given in this repo. Skip only this line of code.
   .\venv\Scripts\activate
   ```
 - macOS/Linux:
@@ -83,4 +83,11 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Flask team for the comprehensive web framework.
 - SQLite developers for the robust database engine.
 - All contributors who have helped to improve this app.
+- [Link to the helping material](references/NARWHAL.pdf)
+
+## Demo 
+
+![login page](references/screenshotsForMD/Screenshot%202024-03-31%20125951.png)
+
+![registration page](references/screenshotsForMD/Screenshot_2024-03-31_130316.png)
 
